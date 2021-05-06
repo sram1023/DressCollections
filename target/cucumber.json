@@ -1,0 +1,88 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-06T20:52:50.888Z",
+        "line": 4,
+        "name": "Verify the order confirmation in order history page",
+        "description": "",
+        "id": "purchase-t-shirt;verify-the-order-confirmation-in-order-history-page",
+        "after": [
+          {
+            "result": {
+              "duration": 2865000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.test.ramkumar.stepdef.OrdersTestDefinition.closeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8723000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on homepage",
+            "match": {
+              "location": "com.test.ramkumar.stepdef.OrdersTestDefinition.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3804000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I sign in",
+            "match": {
+              "location": "com.test.ramkumar.stepdef.OrdersTestDefinition.iSignIn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17054000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I order a T-Shirt",
+            "match": {
+              "location": "com.test.ramkumar.stepdef.OrdersTestDefinition.iOrderATshirt()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see my order in order history",
+            "match": {
+              "location": "com.test.ramkumar.stepdef.OrdersTestDefinition.iShouldSeeMyOrderInOrderHistory()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Order"
+          }
+        ]
+      }
+    ],
+    "name": "Purchase T-shirt",
+    "description": "",
+    "id": "purchase-t-shirt",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/dresscollections.feature",
+    "tags": []
+  }
+]
